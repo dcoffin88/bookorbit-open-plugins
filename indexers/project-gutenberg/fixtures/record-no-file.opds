@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:relevance="http://a9.com/-/opensearch/extensions/relevance/1.0/">
+<id>http://www.gutenberg.org/ebooks/6542.opds</id>
+<updated>2026-08-20T19:20:34Z</updated>
+<title>Frankenstein by Mary Wollstonecraft Shelley</title>
+<subtitle>Free eBooks since 1971.</subtitle>
+<author>
+<name>Project Gutenberg</name>
+<uri>https://www.gutenberg.org</uri>
+<email>redacted@example.invalid</email>
+</author>
+<icon>https://www.gutenberg.org/gutenberg/favicon.ico</icon>
+<link rel="search" type="application/opensearchdescription+xml" title="Project Gutenberg Catalog Search" href="https://www.gutenberg.org/catalog/osd-books.xml"/>
+<link rel="self" title="This Page" type="application/atom+xml;profile=opds-catalog" href="/ebooks/6542.opds"/>
+<link rel="alternate" type="text/html" title="HTML Page" href="/ebooks/6542"/>
+<link rel="start" title="Start Page" type="application/atom+xml;profile=opds-catalog" href="/ebooks.opds/"/>
+<opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+<opensearch:startIndex>1</opensearch:startIndex>
+<entry>
+<updated>2026-08-20T19:20:34Z</updated>
+<title>Frankenstein</title>
+<content type="xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+Title:
+Frankenstein
+</p>
+<p>
+Note:
+This audio eBook is missing files/chapters 13, 14 and 21.
+</p>
+<p>Author: Shelley, Mary Wollstonecraft, 1797-1851</p>
+<p>EBook No.: 6542</p>
+<p>Published: Sep 1, 2004</p>
+<p>Downloads: 1232</p>
+<p>Language: English</p>
+<p>Subject: Science fiction</p><p>Subject: Horror tales</p><p>Subject: Gothic fiction</p><p>Subject: Scientists -- Fiction</p><p>Subject: Monsters -- Fiction</p><p>Subject: Frankenstein, Victor (Fictitious character) -- Fiction</p><p>Subject: Frankenstein's monster (Fictitious character) -- Fiction</p>
+<p>LoCC: Language and Literatures: English literature</p>
+<p>Category: Sound</p>
+<p>Rights: Copyrighted. Read the copyright notice inside this book for details.</p>
+</div>
+</content>
+<id>urn:gutenberg:6542:0</id>
+<published>2004-09-01T00:00:00+00:00</published>
+<rights>Copyrighted. Read the copyright notice inside this book for details.</rights>
+<author>
+<name>Shelley, Mary Wollstonecraft</name>
+</author>
+<category scheme="http://purl.org/dc/terms/LCSH" term="Science fiction"/><category scheme="http://purl.org/dc/terms/LCSH" term="Horror tales"/><category scheme="http://purl.org/dc/terms/LCSH" term="Gothic fiction"/><category scheme="http://purl.org/dc/terms/LCSH" term="Scientists -- Fiction"/><category scheme="http://purl.org/dc/terms/LCSH" term="Monsters -- Fiction"/><category scheme="http://purl.org/dc/terms/LCSH" term="Frankenstein, Victor (Fictitious character) -- Fiction"/><category scheme="http://purl.org/dc/terms/LCSH" term="Frankenstein's monster (Fictitious character) -- Fiction"/>
+<category scheme="http://purl.org/dc/terms/LCC" term="PR" label="Language and Literatures: English literature"/>
+<category scheme="http://purl.org/dc/terms/DCMIType" term="Sound"/>
+<dcterms:language>en</dcterms:language>
+<relevance:score>1</relevance:score>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="https://www.gutenberg.org/cache/epub/6542/pg6542.cover.medium.jpg"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="https://www.gutenberg.org/cache/epub/6542/pg6542.cover.small.jpg"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/author/61.opds" title="By Shelley, Mary Wollstonecraft…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/subject/36.opds" title="On Science fiction…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/subject/1222.opds" title="On Horror tales…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/subject/2586.opds" title="On Gothic fiction…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/subject/2665.opds" title="On Scientists -- Fiction…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/subject/2666.opds" title="On Monsters -- Fiction…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/subject/2667.opds" title="On Frankenstein, Victor (Fictitious character) -- Fiction…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/subject/18502.opds" title="On Frankenstein's monster (Fictitious character) -- Fiction…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/bookshelf/62.opds" title="In Precursors of Science Fiction…"/>
+<link type="application/atom+xml;profile=opds-catalog" rel="related" href="/ebooks/bookshelf/403.opds" title="In Science Fiction by Women…"/>
+</entry>
+</feed>
