@@ -89,6 +89,7 @@ ok('needs no credential', plugin.requiresCredential === false && plugin.credenti
 ok('carries ebooks and nothing else', JSON.stringify(plugin.mediaKinds) === '["ebook"]');
 ok('joins no swarm and uses no categories', plugin.seedsBack === false && plugin.usesCategories === false);
 ok('targets the contract this build speaks', plugin.apiVersion === 1);
+ok('plugin version', plugin.version === '1.0.0');
 ok('offers the illustrated-edition toggle', plugin.settingsFields?.[0]?.key === 'preferIllustrated' && plugin.settingsFields[0].default === true);
 
 console.log('search requests');

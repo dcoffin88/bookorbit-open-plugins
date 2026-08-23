@@ -32,6 +32,9 @@ reload, and a plugin that fails to load is reported at the top of that page.
 library files, your encryption key. Each plugin is a single dependency-free file so you can read it
 before installing it.
 
+Each plugin declares its own semantic `version` without a leading `v`. Bump it whenever that
+plugin's runtime behavior changes so an installed copy can be identified from BookOrbit.
+
 BookOrbit enforces regardless: network access only through the host (private-address policy and
 per-request deadline), no claiming a built-in adapter's name, refusal of a mismatched contract
 version, re-validation of resolved URLs before a download client sees them, and plugin errors

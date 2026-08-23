@@ -93,6 +93,7 @@ const LANGUAGE_BY_NAME = {
 
 export default {
   apiVersion: 1,
+  version: '1.0.0',
   type: 'project-gutenberg',
   label: 'Project Gutenberg',
   requiresCredential: false,

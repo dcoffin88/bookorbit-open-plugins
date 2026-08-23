@@ -94,6 +94,7 @@ const LANGUAGE_BY_NAME = {
 
 export default {
   apiVersion: 1,
+  version: '1.0.0',
   type: 'librivox',
   label: 'LibriVox',
   requiresCredential: false,

@@ -74,6 +74,7 @@ ok('needs no credential', plugin.requiresCredential === false && plugin.credenti
 ok('carries audiobooks and nothing else', JSON.stringify(plugin.mediaKinds) === '["audiobook"]');
 ok('joins no swarm and uses no categories', plugin.seedsBack === false && plugin.usesCategories === false);
 ok('targets the contract this build speaks', plugin.apiVersion === 1);
+ok('plugin version', plugin.version === '1.0.0');
 
 console.log('search requests');
 {
