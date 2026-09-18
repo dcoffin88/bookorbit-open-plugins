@@ -8,6 +8,7 @@ are plugins, maintained separately.
 | --------------------- | ---------- | ---------- | ---------------------------------------------------------------- |
 | **librivox**          | audiobooks | none       | Public domain audiobooks read by volunteers                      |
 | **project-gutenberg** | ebooks     | none       | Around 75,000 public domain ebooks, produced rather than scanned |
+| **openbooks**         | ebooks     | none       | Self-hosted OpenBooks live IRC search connector                  |
 
 Each file's header comment says what its source expects of a client. Read it before installing.
 
@@ -53,6 +54,15 @@ requested, which measured within 0.3% of the real file.
 because roughly a fifth offer no file at all. It prefers the illustrated EPUB3; turn
 `preferIllustrated` off for the smaller plain edition. Gutenberg asks not to be accessed by automated
 tools, so installing it is a decision about your own address.
+
+**openbooks** connects to a self-hosted OpenBooks server and uses the same `/ws` live IRC search
+flow as the OpenBooks UI. Run a patched OpenBooks build with `--persist --library-token <token>`,
+set the base URL to the server address, for example `http://192.168.86.150:6081`, and set the same
+token in the plugin's `libraryToken` setting. The plugin will join IRC, search, ask OpenBooks to
+download the selected result, then resolve the persisted `/library/<name>` URL with the token
+attached. BookOrbit's current direct downloader still needs to permit private-network direct files
+from indexers that explicitly allow private addresses, or the OpenBooks URL must be reachable by a
+non-private hostname.
 
 ## Verifying
 
